@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj": {}
+    "c:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj": {
+    "c:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj",
+        "projectUniqueName": "c:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj",
         "projectName": "Inventroy_backEnd",
-        "projectPath": "C:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj",
+        "projectPath": "c:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj",
         "packagesPath": "C:\\Users\\us\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\obj\\",
+        "outputPath": "c:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\us\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,3 +1,6 @@
+using Inventroy_backEnd.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +8,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+
+//configuration
+// builder.Services.AddDbContext<AppContext>(options => options.UseSqlServer(
+//     builder.Configuration["ConnectionString:AppConnectionString"]
+// ));
+builder.Services.AddDbContext<AppDbContext>(Options => Options.UseSqlServer(
+    builder.Configuration["ConnectionStrings:AppConnectionString"]));
 
 var app = builder.Build();
 
