@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inventroy_backEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d78c65528527b93fd34017dd49b7c7eefed640c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inventroy_backEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inventroy_backEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
