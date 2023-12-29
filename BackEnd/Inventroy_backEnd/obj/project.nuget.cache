@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QWmBXjvXQacyhxq5l27Ji6rQqM0a5Mu68aOn1bKmZz5a2q+A2LmpCx2xPwp4L1J/tN3yqo/d/0pCNwp6eNLBbg==",
+  "dgSpecHash": "nfRveTH2jl7xYLKohqrk6vBhi8fKyTOZ5++tXI8qZfyBlM1cUL6R9i9l+1D1Ijf9Ibuz6edmXPyJGjREFVOz5A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj",
+  "projectFilePath": "C:\\Users\\us\\Documents\\MobileApp\\Inventory_management_sysyem\\BackEnd\\Inventroy_backEnd\\Inventroy_backEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\us\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\us\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

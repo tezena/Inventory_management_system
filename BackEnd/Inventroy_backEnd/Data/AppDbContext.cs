@@ -1,13 +1,21 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Inventroy_backEnd.Data
 {
-    public class AppDbContext:DbContext
+  public class AppDBContext : IdentityDbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
+        private readonly DbContextOptions _options;
+
+        public AppDBContext(DbContextOptions options): base(options)
         {
-            
+            _options = options; 
         }
-        
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+        }
     }
 }

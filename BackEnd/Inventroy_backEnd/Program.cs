@@ -1,5 +1,8 @@
 using Inventroy_backEnd.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,11 +14,12 @@ builder.Services.AddControllers();
 
 
 //configuration
-// builder.Services.AddDbContext<AppContext>(options => options.UseSqlServer(
-//     builder.Configuration["ConnectionString:AppConnectionString"]
-// ));
-builder.Services.AddDbContext<AppDbContext>(Options => Options.UseSqlServer(
+
+builder.Services.AddDbContext<AppDBContext>(Options => Options.UseSqlServer(
     builder.Configuration["ConnectionStrings:AppConnectionString"]));
+
+//Identity services 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
 
 var app = builder.Build();
 
@@ -47,6 +51,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+app.UseAuthentication();
 
  app.MapControllers();
 
