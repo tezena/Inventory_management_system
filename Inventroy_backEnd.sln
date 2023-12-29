@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{5A97867F-566E-4184-93C2-49536A2284A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventroy_backEnd", "BackEnd\Inventroy_backEnd\Inventroy_backEnd.csproj", "{3FAE989C-09D7-402A-BB30-C2F936F5AADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FAE989C-09D7-402A-BB30-C2F936F5AADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAE989C-09D7-402A-BB30-C2F936F5AADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAE989C-09D7-402A-BB30-C2F936F5AADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAE989C-09D7-402A-BB30-C2F936F5AADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FAE989C-09D7-402A-BB30-C2F936F5AADE} = {5A97867F-566E-4184-93C2-49536A2284A9}
+	EndGlobalSection
+EndGlobal

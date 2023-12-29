@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Inventroy_backEnd.props" />
+</Project>
