@@ -26,6 +26,9 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkSto
 //configure services
 builder.Services.AddTransient<AccountServices>();
 
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
