@@ -2,6 +2,7 @@ using Inventroy_backEnd.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Inventroy_backEnd.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,10 @@ builder.Services.AddDbContext<AppDBContext>(Options => Options.UseSqlServer(
 
 //Identity services 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
+
+
+//configure services
+builder.Services.AddTransient<AccountServices>();
 
 var app = builder.Build();
 
